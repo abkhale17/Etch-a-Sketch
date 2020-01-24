@@ -4,9 +4,13 @@
 	<meta charset="utf-8">
 	<title>Etch a Sketch</title>
 		<style type="text/css">
+			body {
+				margin: 0px;
+			}
 			h1 {
-				font-size: 50px;
+				font-size: 30px;
 				text-align: center;
+				margin-top: 1px;
 			}
 			.grid-row:after {
 			    clear: both;
@@ -20,9 +24,9 @@
 			} 
 			.btn {
 				display: block;
-				margin: 50px auto;
-				padding: 18px 60px;
-				font-size: 30px;
+				margin: 10px auto 20px auto;
+				padding: 8px 45px;
+				font-size: 18px;
 				border: 3px solid black;
 				border-radius: 18px;
 				color: black;
@@ -51,7 +55,7 @@
 	<script type="text/javascript">
 		const divContainer = document.getElementById('container')
 		divContainer.setAttribute('style',
-			"display:block;		width:960px;	height:960px;	margin:0px auto"
+			"display:block;		width:960px;	height:960px;	margin:15px auto"
 		)
 
 		function randomColorGenerator(){
